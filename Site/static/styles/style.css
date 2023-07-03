@@ -15,7 +15,7 @@ img{
 	min-width: 360px;
 	margin: 0 auto;
 	border: 1px solid red;
-	background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%), url("/static/image/bg.png");
+	background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%), url("../image/bg.png");
 	background-color: white;
 	background-repeat: no-repeat;
 	/* background-size: contain; */
@@ -108,7 +108,7 @@ img{
 	font-weight: 400;
 	line-height: 24px;
 	color: #FFF;
-	background: url("/static/image/Oval.svg");
+	background: url("../image/Oval.svg");
 	background-repeat: no-repeat;
 	padding-left: 43px;
 	margin-bottom: 0px;
@@ -196,7 +196,7 @@ img{
 
 .wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock a{
 	text-decoration: none;
-	background: url("/static/image/Shape.svg");
+	background: url("../image/Shape.svg");
 	background-repeat: no-repeat;
 	background-size: 33px 8px;
 	background-position: 128px 6px;
@@ -231,7 +231,7 @@ img{
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
-	background: url("/static/image/Line\ 2.svg");
+	background: url("../image/Line\ 2.svg");
 	background-repeat: no-repeat;
 	background-position: 0px 49px;
 	padding-bottom: 10px;
@@ -239,7 +239,7 @@ img{
 
 .wrapper .GetInspiredSection .GetInspiredSectionOneLine a{
 	text-decoration: none;
-	background: url("/static/image/Shape.svg");
+	background: url("../image/Shape.svg");
 	background-repeat: no-repeat;
 	background-size: 33px 8px;
 	background-position: 98px 8px;
