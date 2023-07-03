@@ -137,8 +137,8 @@ img{
 }
 
 .wrapper .Card{
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 89px;
+	margin-right: 89px;
 	margin-bottom: 131px;
 	max-width: 1262px;
 	background-color: #FFFFFF;
@@ -209,12 +209,40 @@ img{
 	padding-right: 59px;
 }
 
+.wrapper .GetInspiredSection{
+	margin-left: 89px;
+	margin-right: 89px;
+	max-width: 1262px;
+	background-color: #FFFFFF;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 36px;
+}
+
+#h2WithUnderLine {
+	color: #102746;
+	font-size: 35px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	background: url("/static/image/Line\ 2.svg");
+	background-repeat: no-repeat;
+	background-position: 0px 49px;
+	padding-bottom: 10px;
+}
+
 .wrapper .GetInspiredSection .GetInspiredSectionOneLine a{
 	text-decoration: none;
 	background: url("/static/image/Shape.svg");
 	background-repeat: no-repeat;
 	background-size: 33px 8px;
-	background-position: 98px 6px;
+	background-position: 98px 8px;
 	color: #006DFE;
 	font-size: 16px;
 	font-family: Lato;
@@ -223,3 +251,41 @@ img{
 	line-height: 24px;
 	padding-right: 59px;
 }
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock{
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 -5px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock .ImageBlock{
+	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+	margin: 0 5px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 -5px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock .ImageBlock{
+	margin: 0 5px;
+	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+}
+
+/* .wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock .ImageBlock#ImageBlock1{
+	width: 619px;
+	height: 354px;
+	background: url("/static/image/ImageMountFuji.png"), lightgray 0px 0px / 100% 100% no-repeat;
+	background-repeat: no-repeat;
+	background-size: inherit;
+	bgs
+} */
