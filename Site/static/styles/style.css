@@ -15,11 +15,14 @@ img{
 	min-width: 360px;
 	margin: 0 auto;
 	border: 1px solid red;
-	background-image: url("/static/image/bg.png");
+	background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%), url("/static/image/bg.png");
 	background-color: white;
 	background-repeat: no-repeat;
+	/* background-size: contain; */
 	/* background-attachment: fixed; */
-	background-size: contain;
+	/* ! Для отрисовки градиента в заднем фоне пришлось задать размер */
+	background-size: 1440px 962px;
+	
 }
 
 .wrapper header{
@@ -133,18 +136,19 @@ img{
 	line-height: normal;
 }
 
-.wrapper .CardTitle{
-	padding-left: 100px;
-	padding-right: 100px;
-	position: relative;
-	margin: 0 auto;
+.wrapper .Card{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 131px;
 	max-width: 1262px;
 	background-color: #FFFFFF;
+	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
 }
 
-.wrapper .CardTitle h2{
+.wrapper .Card h2{
+	padding-left: 99px;
 	padding-top: 93px;
-	margin-bottom: 120px;
+	padding-bottom: 120px;
 	color: #102746;
 	font-size: 35px;
 	font-family: Lato;
@@ -153,19 +157,13 @@ img{
 	line-height: normal;
 }
 
-.wrapper .Card{
-	padding-left: 100px;
-	padding-right: 100px;
-	position: relative;
-	margin: 0 auto;
-	max-width: 1262px;
-	background-color: #FFFFFF;
-}
-
 .wrapper .Card .LearnMoreBlockWraper{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 112px;
 }
 
 .wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock{
@@ -193,4 +191,35 @@ img{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 24px;
+	margin-bottom: 39px;
+}
+
+.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock a{
+	text-decoration: none;
+	background: url("/static/image/Shape.svg");
+	background-repeat: no-repeat;
+	background-size: 33px 8px;
+	background-position: 128px 6px;
+	color: #006DFE;
+	font-size: 16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	padding-right: 59px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionOneLine a{
+	text-decoration: none;
+	background: url("/static/image/Shape.svg");
+	background-repeat: no-repeat;
+	background-size: 33px 8px;
+	background-position: 98px 6px;
+	color: #006DFE;
+	font-size: 16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	padding-right: 59px;
 }
