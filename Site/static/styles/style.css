@@ -557,8 +557,15 @@ img{
 }
 
 .wrapper footer .footerMenuContainer{
+	align-self: center;
 	display: flex;
 	flex-direction: row;
+	margin-right: 27.5px;
+	flex-wrap: nowrap;
+}
+
+.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn{
+	padding-right: 139.5px;
 }
 
 .wrapper footer .footerMenuContainer .footerMenuContainerOneColumn h4{
@@ -570,7 +577,9 @@ img{
 	line-height: 24px;
 }
 
-.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn p{
+.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn a{
+	text-decoration: none;
+	display: block;
 	color: #FFF;
 	font-family: Lato;
 	font-size: 16px;
