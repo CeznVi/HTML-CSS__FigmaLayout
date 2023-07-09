@@ -26,7 +26,8 @@ img{
 
 .wrapper header{
 	max-width: 1060px;
-	margin: 56px auto;
+	margin: 0px auto;
+	padding-top: 56px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
