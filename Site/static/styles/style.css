@@ -14,7 +14,7 @@ img{
 	max-width: 1440px;
 	min-width: 360px;
 	margin: 0 auto;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%), url("../image/bg.png");
 	background-color: white;
 	background-repeat: no-repeat;
